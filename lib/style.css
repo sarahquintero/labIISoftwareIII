@@ -3,6 +3,21 @@
   color: #382ca5;
 }
 
+/* Estilos específicos para títulos h3 y h4 */
+h3{
+  text-align: center;
+  margin: 0px 0 0 0;
+  font-family: Arial, sans-serif;
+  padding: 0
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  text-align: left; 
+  padding-bottom: 15px; 
+  padding-left: 85px
+}
+
 /* Botones de agendar cita */
 button {
   background-color: #007bff;
