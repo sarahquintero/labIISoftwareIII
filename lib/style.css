@@ -1,8 +1,9 @@
-
+/* Estilos generales para todos los elementos (color de la fuente) */
 * {
   color: #382ca5;
 }
 
+/* Botones de agendar cita */
 button {
   background-color: #007bff;
   color: white;
@@ -11,6 +12,7 @@ button {
   border: 0;
 }
 
+/* Tarjeta del medico tipo 1 fondo rojo*/
 #medico1 {
   background-color: #ca5f86;
   border-radius: 5px;
@@ -21,6 +23,7 @@ button {
   padding-left: 15px;
 }
 
+/* Tarjeta del medico tipo 2 fondo verde*/
 #medico2 {
   background-color: #cbe79c;
   border-radius: 5px;
@@ -31,6 +34,7 @@ button {
   padding-left: 15px;
 }
 
+/* Tarjeta del medico tipo 3 fondo azul*/
 #medico3 {
   background-color: #a2b9e6;
   border-radius: 5px;
@@ -41,10 +45,10 @@ button {
   padding-left: 15px;
 }
 
+/* Contenedor en formato grid para organizar las tarjetas de presentacion de los medicos*/
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 10px;
   text-align: center;
 }
-
